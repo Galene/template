@@ -1,0 +1,326 @@
+
+/* ----[ LINKS ]----*/
+
+/* all menu links */
+#s5_nav a, #subMenusContainer a{
+	text-decoration:none;
+}
+
+/* Just main menu links --[for non-javascript users this applies to submenu links as well]*/
+#s5_nav a{
+	margin:0;	
+}
+
+#s5_menu_wrap ul.menu {
+padding:0px !important;
+}
+
+#s5_menu_wrap ul.menu a {
+padding-bottom:0px !important;
+}
+
+#subMenusContainer ul li {
+	padding:0px;
+	margin:0px;
+}
+
+/* Just sub menu links */
+#subMenusContainer a, #s5_nav li li a{
+	text-align:left;
+	font-size:0.9em;
+	white-space: pre;
+	width:auto;
+	color:#FFFFFF !important;
+}
+
+#subMenusContainer a:after, #s5_nav li li a:after {
+content:"\a";
+}
+
+
+/* ----[ OLs ULs, LIs, and DIVs ]----*/
+
+
+/* All ULs and OLs */
+#nav, #s5_nav ul, #s5_nav ol, #subMenusContainer ul, #subMenusContainer ol { 
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	line-height: 1em;
+}
+
+/* All submenu OLs and ULs */
+#s5_nav ol, #s5_nav ul, #subMenusContainer ul, #subMenusContainer ol {	
+	left:0;
+}
+
+#subMenusContainer img {
+margin-right:8px;
+}
+
+#s5_nav img {
+margin-right:6px;
+margin-top:2px;
+}
+
+/* Submenu Outer Wrapper - each submenu is inside a div with this class - javascript users only */
+.s5_sub_wrap, .s5_sub_wrap_lower, .s5_sub_wrap_rtl, .s5_sub_wrap_lower_rtl {
+	display:none; 
+	position: absolute; 
+	overflow:hidden; 
+	padding:5px;
+	padding-top:0px;
+	padding-bottom:8px;
+	margin-left:-5px;
+}
+
+#subMenusContainer div ul {
+	background:#4E4E4E;
+}
+
+.s5_sub_wrap_rtl { 
+	margin-left:5px;
+}
+
+.s5_sub_wrap_lower_rtl, .s5_sub_wrap_lower {
+	margin-left:0px;
+	margin-right:0px;
+	padding-top:3px;
+}
+
+.mainParentBtn a {
+	padding-right:24px;
+}
+
+.subParentBtn .S5_submenu_item a {
+	background:url(../images/s5_menu_arrow_subs.png) no-repeat right center !important;
+	display:block;
+}
+
+#subMenusContainer div.s5_sub_wrap ul {
+	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	padding-top:14px;
+	padding-bottom:16px;
+}
+
+#subMenusContainer div.s5_sub_wrap_rtl ul {
+	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	padding-top:14px;
+	padding-bottom:16px;
+}
+
+#subMenusContainer div.s5_sub_wrap_lower ul, #subMenusContainer div.s5_sub_wrap_lower_rtl ul {
+	-webkit-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	-moz-box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.15);
+	padding-top:14px;
+	padding-bottom:16px;
+	border:solid 1px #5E5E5E;
+}
+
+#subMenusContainer div.s5_sub_wrap ul ul, #subMenusContainer div.s5_sub_wrap_lower ul ul, #subMenusContainer div.s5_sub_wrap_rtl ul ul, #subMenusContainer div.s5_sub_wrap_lower_rtl ul ul {
+	padding:0px;
+	margin:0px;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	box-shadow:none;
+	background:none;
+	border:none;
+}
+
+#subMenusContainer li.subParentBtn, #subMenusContainer li.subMenuBtn {
+	padding:15px;
+	clear:both;
+	padding-top:0px;
+	padding-bottom:0px;
+	min-width:212px;
+}
+
+
+/* List items in main menu --[for non-javascript users this applies to submenus as well]  */
+#s5_nav li { 
+	/*great place to use a background image as a divider*/
+	display:block;
+	list-style:none;
+	position:relative;
+	float:left;
+	padding:0px;
+	overflow:hidden;
+	background:url(../images/s5_menu_line.png) no-repeat top right;
+	padding-top:12px;
+	padding-bottom:12px;
+}
+
+#s5_nav li a {
+	font-size:1.15em;
+	color:#FFFFFF !important;
+	}
+	
+
+#s5_nav li.mainParentBtn .s5_level1_span2 a {
+	padding-right:20px;
+}
+
+.S5_parent_subtext {
+	display:block;
+	clear:both;
+	cursor:pointer;
+	font-size:0.9em;
+	margin-top:-3px;
+	color:#FFFFFF !important;
+}
+
+#s5_nav li .s5_level1_span1 {
+background:none;
+display:block;
+padding-left:20px;
+padding-right:20px;
+}
+
+#s5_nav li .s5_level1_span2 {
+background:none;
+display:block;
+}
+
+
+#subMenusContainer .moduletable {
+padding:6px;
+}
+
+#subMenusContainer .moduletable h3 {
+margin-bottom:8px;
+}
+
+.S5_submenu_item {
+	padding:6px;
+	padding-top:6px;
+	padding-bottom:6px;
+	display:block;
+}
+
+.S5_grouped_child_item .S5_submenu_item {
+	padding:4px !important;
+	background:none !important;
+	border:none !important;
+}
+
+#subMenusContainer li{
+	list-style: none;
+}
+
+
+#subMenusContainer{	display:block; 	position:absolute;	top:0;	left:0;	width:100%;	height:0;	overflow:visible;	z-index:1000000000; }
+
+
+/* --------------------------[ The below is just for non-javscript users ]--------------------------*/
+#s5_nav li li{	float:none; }
+
+#s5_nav li li a{ /* Just submenu links*/	
+	position:relative;
+	float:none;
+}
+
+#s5_nav li ul { /* second-level lists */
+	position: absolute;
+	width: 10em;
+	margin-left: -1000em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+	margin-top:2.2em;
+}
+
+/* third-and-above-level lists */
+#s5_nav li ul ul { margin: -1em 0 0 -1000em; }
+#s5_nav li:hover ul ul {	margin-left: -1000em; }
+
+ /* lists nested under hovered list items */
+#s5_nav li:hover ul{	margin-left: 0; }
+#s5_nav li li:hover ul {	margin-left: 10em; margin-top:-2.5em;}
+
+/* extra positioning rules for limited noscript keyboard accessibility */
+#s5_nav li a:focus + ul {  margin-left: 0; margin-top:2.2em; }
+#s5_nav li li a:focus + ul { left:0; margin-left: 1010em; margin-top:-2.2em;}
+#s5_nav li li a:focus {left:0;  margin-left:1000em; width:10em;  margin-top:0;}
+#s5_nav li li li a:focus {left:0; margin-left: 2010em; width: 10em;  margin-top:-1em;}
+#s5_nav li:hover a:focus{ margin-left: 0; }
+#s5_nav li li:hover a:focus + ul { margin-left: 10em; }
+
+
+span.menu_subtext {
+	font-weight:normal;
+	line-height:10px;
+}
+
+.S5_subtext {
+font-size:0.8em;
+padding-top:3px;
+cursor:pointer;
+}
+
+.S5_grouped_child_item .S5_subtext {
+padding-left:20px;
+}
+
+span.menu_title{
+	line-height:12px;
+	text-align:center;
+}
+
+
+div.has_description{
+	height:auto;
+}
+
+div.S5_grouped_child_item span{
+	font-size:0.95em;
+}
+
+div.S5_grouped_child_item {
+	padding-top:4px;
+	padding-bottom:4px;
+	padding-left:17px;
+}
+
+div.S5_grouped_child_item span span.S5_submenu_item a{
+	padding:0px;
+	padding-left:12px;
+	color:#FFFFFF;
+}
+
+#subMenusContainer li .S5_submenu_item, #subMenusContainer .moduletable {
+padding-bottom:8px;
+padding-top:8px;
+}
+
+#subMenusContainer div.s5_sub_wrap ul, .S5_subtext, .S5_menu_module_group .moduletable {
+color:#FFFFFF;
+}
+
+#s5_nav li.active {
+background:#3B3B3B !important;
+}
+
+#s5_nav li:hover, #s5_nav li.mainMenuParentBtnFocused {
+background:#4E4E4E !important;
+}
+
+.mainParentBtn a {
+background:url(../images/s5_menu_arrow.png) no-repeat right center !important;
+}
+
+.S5_submenu_item:hover, .S5_grouped_child_item .S5_submenu_item:hover {
+background:#3B3B3B !important;
+-webkit-transition: all 400ms ease-in;
+-moz-transition: all 400ms ease-in;
+-o-transition: all 400ms ease-in;
+transition: all 400ms ease-in;
+}
+
+.S5_submenu_item, .S5_grouped_child_item .S5_submenu_item {
+-webkit-transition: all 400ms ease-out;
+-moz-transition: all 400ms ease-out;
+-o-transition: all 400ms ease-out;
+transition: all 400ms ease-out;
+}

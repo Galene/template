@@ -1,0 +1,29 @@
+ul.s5_am_innermenu {
+padding-top:0px !important;
+padding-bottom:0px !important;
+}
+
+.article-info dd {
+background:none;
+}
+
+.S5_subtext {
+display:block;
+}
+
+.s5_mod_h3 {
+display:block;
+width:100%;
+}
+
+#s5_login, #s5_register {
+margin-left:6px;
+}
+
+#fontControls {
+margin-right:12px;
+}
+
+.inputbox:hover, .registration input:hover, .login input:hover, .contact-form input:hover, #jform_contact_message:hover, #mod-search-searchword:hover, input:hover, textarea:hover {
+background:#f7f7f7;
+}
